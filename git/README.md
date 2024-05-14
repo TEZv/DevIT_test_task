@@ -9,15 +9,15 @@ New changes have appeared on the 'dev' branch of the remote repository, and your
 
 `Provided answer`:
 1. Fetch changes from the remote repository:<br>
-   **git fetch origin dev**
+   --> **git fetch origin dev**
 2. Switch to my local task_4 branch:<br>
-   **git checkout task_4**
+   --> **git checkout task_4**
 3. Merge changes from the remote dev branch into my local task_4 branch:<br>
-   **git merge origin/dev**
+   --> **git merge origin/dev**
 4. Resolve any merge conflicts if they occur. Git will indicate if there are any conflicts, and I'll need to manually resolve them in my files - accept current, remote or both of them.
 5. Once conflicts are resolved, add the resolved files to the staging area:<br>
-   **git add <resolved files>**
+   --> **git add <resolved files>**
 6. Commit the merged changes:<br>
-   **git commit -m "Merge changes from dev into task_4"**
+   --> **git commit -m "Merge changes from dev into task_4"**
 7. Push the merged changes to my remote repository:<br>
-   git push origin task_4
+   --> **git push origin task_4**
