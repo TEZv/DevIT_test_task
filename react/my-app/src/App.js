@@ -1,8 +1,8 @@
-import './App.css';
+import "./App.css";
 
-import React, { useState } from 'react';
-import Modal from './task_1_Modal';
-import CensoredText from './task_2_CensoredText';
+import React, { useState } from "react";
+import Modal from "./task_1_Modal";
+import CensoredText from "./task_2_CensoredText";
 
 const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -21,8 +21,34 @@ const App = () => {
       </Modal>
       <CensoredText
         text="This is a censored text. The censored words are Love and React."
-        censoredWords={['Love', 'React']}
+        censoredWords={["Love", "React"]}
       />
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
+      <p>Check if it scrolls.</p>
     </div>
   );
 };

@@ -1,3 +1,15 @@
+html {
+  background-color: antiquewhite;
+  text-align: center;
+}
+button {
+  background-color: rgb(53, 13, 13);
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
 .modal-overlay {
   position: fixed;
   top: 0;
